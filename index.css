@@ -46,7 +46,7 @@ body{
    
 }
 #main-div{
-    margin:10% 5% 10% 5% ;
+    margin: 5% 5% 5% 5% ;
     
     background-color: var(--dark-bakground);
     border-radius: 15px;
@@ -54,6 +54,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     
    
 }
