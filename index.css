@@ -22,7 +22,7 @@ body{
 }
 
 #background-top{
-    background-image: url(images/bg-pattern-top.svg);
+    background-image: url(bg-pattern-top.svg);
     height: 150%;
     width:100%;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body{
 }
 
 #background-bottom{
-    background-image:url(images/bg-pattern-bottom.svg);
+    background-image:url(bg-pattern-bottom.svg);
     height: 450px;
     width:850px;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body{
     
 }
 #bubble-image{
-    background-image: url(images/bg-pattern-card.svg);
+    background-image: url(bg-pattern-card.svg);
     height:17vh;
     background-color:var(--background);
 
@@ -75,11 +75,11 @@ body{
 }
 @font-face {
     font-family: kumbh;
-    src: url(Kumbh_Sans/KumbhSans-Bold.ttf);
+    src: url(KumbhSans-Bold.ttf);
 }
 @font-face{
     font-family: kumbh-light;
-    src: url(Kumbh_Sans/KumbhSans-Light.ttf)
+    src: url(KumbhSans-Light.ttf)
 }
 #name{
     margin-top:20%;
