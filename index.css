@@ -22,7 +22,7 @@ body{
 }
 
 #background-top{
-    background-image: url(images/bg-pattern-top.svg);
+    background-image: url(bg-pattern-top.svg);
     transform: rotate(180deg);
     height: 50%;
     width:50%;
@@ -34,7 +34,7 @@ body{
 }
 
 #background-bottom{
-    background-image:url(images/bg-pattern-bottom.svg);
+    background-image:url(bg-pattern-bottom.svg);
     height: 50%;
     width:60%;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body{
     
 }
 #bubble-image{
-    background-image: url(images/bg-pattern-card.svg);
+    background-image: url(bg-pattern-card.svg);
     height:17vh;
     background-color:var(--background);
 
