@@ -131,7 +131,7 @@ a{
 
 @font-face {
     font-family: karla;
-    src: url(Karla/Karla-VariableFont_wght.ttf);
+    src: url(Karla-VariableFont_wght.ttf);
 }
 
 @media only screen and (min-width:750px){
