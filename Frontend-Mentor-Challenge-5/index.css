@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+:root{
+    font-size:15px;
+    font-family:Poppins ;
+    text-align:center;
+
+    /* Primary color */
+
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    /* Neutral color */
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+#module1{
+    font-size: .8rem;
+    margin:4rem 3em 1rem 3em;
+ 
+}
+#top-header{
+    font-weight:400;
+    color:var(--Grayish-Blue);
+    font-size: 2em;
+
+    
+    
+}
+.bold-text{
+    font-weight: 700;
+    color: var(--Very-Dark-Blue);  
+}
+#powered{
+    font-size: 2em;
+    margin-bottom:1.8rem;
+
+}
+#para1{
+    font-size:1.25em;
+    font-weight:400;
+    
+
+}
+.grayish-blue{
+    color: var(--Grayish-Blue);
+}
+.boxes{
+    margin:2em 2em 2em 2em;
+    box-shadow: hsla(229, 6%, 66%, 0.5) 0px 13px 27px -5px;
+    padding:2rem 3.5rem 3.5rem 2rem;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align:left
+    
+}
+
+#module2{
+    border-top: 4px solid var(--Cyan);
+
+
+
+}
+#module3{
+    border-top: 4px solid var(--Red);
+
+}
+#module4{
+    border-top: 4px solid var(--Orange);
+
+}
+#module5{
+    border-top: 4px solid var(--Blue);
+
+}
+.icons{
+    position: relative;
+    top:2em;
+    left:13em;
+}
+
+.attribution{
+    padding: 0 40px 0 40px;
+    font-size: 1.2em;
+}
+@media only screen and (min-width:1400px){
+    #module1{
+        font-size: 1.3em;
+    }
+    .boxes{
+        margin:2em 2em 2em 2em;
+        box-shadow: hsla(229, 6%, 66%, 0.5) 0px 13px 27px -5px;
+        padding:2rem 3.5rem 3.5rem 2rem;
+        border-radius: 5px;
+        width:370px
+    }
+    #module1{
+       padding:0 270px 0 270px
+     
+    }
+    #module2{
+       position: relative;
+       top:200px;
+       left:120px
+    
+    
+    
+    }
+    #module3{
+        position: relative;
+        left:525px;
+        bottom:220PX
+    
+    }
+    #module4{
+        position: relative;
+        left:525px;
+        bottom:200PX
+
+    
+    }
+    #module5{
+        position: relative;
+        left:930px;
+        bottom:585PX
+    
+    }
+    .icons{
+        position: relative;
+        left:16em;
+    }
+    .attribution{
+        position: relative;
+        bottom:460px;
+        font-size: 2em;
+    }
+    
+}
