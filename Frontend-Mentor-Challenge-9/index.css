@@ -1,0 +1,363 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+
+--Pink: hsl(322, 100%, 64%);
+--light-Pink: hsl(321, 100%, 78%);
+--Light-Red: hsl(0, 100%, 63%);
+
+/*  Neutral */
+
+--Very-Dark-Cyan: hsl(192, 100%, 9%);
+--Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+body{
+   font-family:Open Sans;
+  
+}
+#grid{
+  
+    margin:auto;
+
+    text-align: center;
+
+}
+.top4-padding{
+    padding:30px 30px 10px  30px;
+
+}
+.sections{
+    color:var(--Very-Dark-Cyan);
+  
+}
+h1,
+h2,
+h3
+{
+  font-family: Poppins;
+
+}
+header{
+     height: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     
+}
+#huddle-logo{
+    width:120px;
+}
+#try-btn{
+    border-radius:20px;
+    border-style: none;
+    width:100px;
+    height: 25px;
+    background-color: white;
+    color: var(--Pink);
+    border: 2px solid hsl(322, 100%, 66%);
+ 
+}
+
+.paras{
+   
+    font-weight: 400;
+    padding:30px 30px 10px  30px;
+    line-height: 30px;
+    
+}
+.get-started-here{
+    background-color: var(--Pink);
+    color:white;
+    border-radius:20px;
+    border-style: none;
+    width:220px;
+    height:40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: poppins;
+    box-shadow:  0px 3px 4px grey;
+    margin-top: 20px;
+}
+#build-heading{
+    font-size: 30px;
+    margin-top: 100px;
+
+}
+#mockup{
+    width:100%;
+    height:auto;
+}
+.fig-cap-heading{
+    font-size:70px
+}
+.fig-cap{
+    color:grey;
+    font-size: 20px;
+}
+.icons{
+    position: relative;
+    right:75px;
+    width:35px;
+    height:auto
+}
+#message-figure{
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+#section-data{
+    background-image: url(images/bg-section-top-mobile-1.svg);
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.illustrations{
+    width:100%;
+    margin:100px 0 ;
+    padding:30px 80px 10px  80px;
+   
+}
+#grow-together-section{
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:100%;
+  height:800px;
+  background-color: var(--Very-Pale-Blue); 
+}
+
+    
+
+
+#flowing-conversation-section{
+    background-image: url(images/bg-section-bottom-mobile-1.svg), url(images/bg-section-top-mobile-2.svg);
+    background-position: top center, bottom center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding-bottom:250px ;
+   
+    
+
+}
+#flowing-image{
+   margin-top:200px
+}
+#your-users-section{
+    background-color: var(--Very-Pale-Blue);
+    padding-bottom: 80px;
+
+}
+#your-users-image{
+    margin-top: 0;
+}
+#ready-to-build-section{
+    background-image: url(images/bg-section-bottom-mobile-2.svg), url(images/bg-footer-top-mobile.svg);
+    background-position: top center, bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding:250px 0 400px 0;
+}
+#reday-to-build-heading{
+    font-size: 30px;
+}
+#get-started-here-bottom{
+    margin-top: 40px;
+}
+#newsletter-section{
+    position: relative;
+    bottom: 10px;
+    text-align: left;
+    color:white;
+    background-color: var(--Very-Dark-Cyan);
+    margin-top: 0;
+    border-width: 0;
+}
+#newsletter-heading{
+   font-size: 24px;
+   margin: 40px 0 40px 0;
+
+}
+#mail-input{
+    margin-top: 40px;
+    width:100%;
+    height:45px;
+    border-radius: 5px;
+    border-style: none;
+
+}
+#subscribe-btn{
+    background-color: var(--Pink);
+    color:white;
+    border-radius:5px;
+    border-style: none;
+    width:45%;
+    height:45px;
+    font-size: 18px;
+    font-family: poppins;
+    margin: 20px 0 60px 0 ;
+    float: right;
+ 
+
+}
+#logo{
+    filter:brightness(0);
+    filter:invert(1);
+    margin-bottom: 10px;
+    
+}
+.contactinfo{
+    display: flex;
+    align-items: center;
+}
+.contact-icon{
+    margin-right:20px;
+    height:20px
+}
+#phone-div{
+    margin: 40px 0 10px 0;
+
+}
+#social-div{
+    
+    width:150px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons{
+    margin-bottom: 60px;
+}
+.attribution{
+    font-size: 20px;
+    
+}
+@media only screen and (min-width:481px){
+
+    #grid{
+  
+        width: 768px;
+ 
+    
+    }
+    .top4-padding{
+        padding:30px 60px 10px  60px;
+    
+    }
+    .paras{
+        padding:30px 80px 10px  80px; ;
+    }
+    #social-div{
+    
+        width:300px;
+       
+    }
+}
+   
+@media only screen and (min-width:769px){
+    #grid{
+  
+        width: 1024px;
+ 
+    
+    }
+    .top4-padding{
+        padding:30px 60px 10px  60px;
+    
+    }
+    .paras{
+        padding:30px 80px 10px  80px; ;
+    }
+    #newsletter-div{
+        width:50%
+    }
+    #huddle-div{
+        width:50%;
+        margin-top: 50px;
+    }
+    #footer-div-container{
+        display: flex;
+        flex-direction: row-reverse;
+    
+    }
+    #social-div{
+        position: relative;
+        bottom:100px
+        
+    }
+}
+@media only screen and (min-width:1025px) {
+    #grid{
+  
+        width: 1200px;
+ 
+    
+    }
+    .top4-padding{
+        padding:30px 80px 10px  80px;
+    
+    }
+    .illustrations-divs{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center ;
+        font-size: larger;
+        height:400px;
+      
+    
+
+    }
+
+     #flowing-div{
+         flex-direction: row;
+
+    }
+    #section-data{
+        background-image: url(images/bg-section-top-desktop-1.svg);
+    }
+    #flowing-conversation-section{
+        background-image: url(images/bg-section-bottom-desktop-1.svg), url(images/bg-section-top-desktop-2.svg);
+        padding-bottom: none;
+    }
+    #ready-to-build-section{
+        background-image: url(images/bg-section-bottom-desktop-2.svg), url(images/bg-footer-top-desktop.svg);
+    }
+    #grow-together-section{
+        height:auto;
+      }
+       
+    #flowing-div{
+        position: relative;
+        top:100px;
+        height:500px
+    }
+    #your-users-section{
+        height:400px
+    }
+    
+    
+}
+@media only screen and (min-width:1400px){
+    #grid{
+  
+        width: 1440px;
+ 
+    
+    }
+    .top4-padding{
+        padding:30px 80px 10px  80px;
+      
+    
+    }
+
+    #para-one{
+       max-width:650px;
+       position: relative;
+       left:300px
+    
+    }
+}
+
+
